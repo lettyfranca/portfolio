@@ -11,7 +11,211 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <a href="#home" class="logo"> Letícia 
+            <span>França</span>
+        </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#college">Formação</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#projects">Projetos</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Letícia <span>França</span></h1>
+            <h3>Desenvolvedora Júnior</h3>
+            <p>
+            Desenvolvedora focada em construir aplicações organizadas, escaláveis e bem estruturadas, unindo lógica, performance e experiência do usuário.
+            </p>
+
+            <div class="social-icons">
+                <a href="https://github.com/lettyfranca" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/lettyfranca/" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Fale Comigo</a>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card" id="devCard">
+                
+                <div class="card-header">
+                <div class="dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="file-name">portfolio.js</div>
+                </div>
+
+                <div class="code">
+            <pre>
+            <span class="red">const</span> <span class="white">developer</span> = {
+            <span class="gray">nome:</span> <span class="string">'Letícia França'</span>,
+            <span class="gray">foco:</span> <span class="string">'Back-end'</span>,
+            <span class="gray">skills:</span> [<span class="string">'C#', 'PHP', 'JavaScript', 'MySQL', 'SqlServer'</span>],
+            <span class="gray">comprometida:</span> <span class="red">true</span>,
+            <span class="gray">proposito:</span> <span class="string">"Código limpo, soluções eficientes"</span>
+            };
+
+            developer.build();
+            </pre>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/me2.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>Sobre <span>mim</span></h2>
+            <p>
+                Desenvolvedora Web com foco em Back-end, dedicada à construção de aplicações organizadas, escaláveis e bem estruturadas. Atuo no desenvolvimento utilizando <span>PHP, C#, Node.js, MySql e SQL Server</span>, integrando regras de negócio consistentes a bancos de dados bem modelados.
+            </p>
+            <p>
+                Também possuo experiência com tecnologias de front-end como <span>HTML, CSS, JavaScript, React, Bootstrap e Tailwind</span>, desenvolvendo interfaces responsivas e funcionais que complementam a lógica da aplicação.
+            </p>
+            <p>
+                Comprometida com boas práticas, organização e performance, busco evoluir continuamente minhas habilidades e aplicar tecnologias de forma estratégica, construindo soluções seguras, manuteníveis e orientadas a resultados.
+            </p>
+        </div>
+    </section>
+
+    <section class="college" id="college">
+        <h2 class="heading">Formação</h2>
+
+        <div class="college-container">
+            <div class="college-box">
+                <div class="college-info">
+                    <i class="bx bx-laptop"></i>
+                    <h4>Bacharel em Ciência da Computação</h4>
+                    <p>Concluí a graduação em dezembro de 2024, e por meio dela pude ter contato com diversos temas técnicos e abstratos, como Programação Orientada a Objetos, Estrutura de Dados, Scrum, Redes, Banco de Dados, etc.</p>
+                </div>
+            </div>
+
+            <div class="college-box">
+                <div class="college-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Técnico em Desenvolvimentos de Sistemas</h4>
+                    <p>Concluí o curso técnico em dezembro de 2021, por meio dele tive contato com programação na prática, desenvolvendo projetos mobile e web, usando principalmente as stacks: PHP, Laravel, HTML, CSS, Sass, React, MySQL, Git, etc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Entre em <span>Contato</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="" id="" placeholder="Nome Completo">
+                    <input type="email" name="" id="" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" name="" id="" placeholder="Número de Telefone">
+                    <input type="text" name="" id="" placeholder="Subject">
+                </div>
+
+                <div class="input-group-2">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section class="college" id="experiencia">
+        <h2 class="heading">Formação</h2>
+
+        <div class="college-container">
+            <div class="college-box">
+                <div class="college-info">
+                    <i class="bx bxs-devices"></i>
+                    <h4>Ciencia</h4>
+                    <p>Atuo principalmente com backend, utilizando C#, Asp.Net, NodeJS, PHP, Laravel, CakePHP, MySQL, SqlServer e versionamento com Git. Para frontend já atuei utilizando JavaScript, Tailwind, Bootstrap, React e Angular.</p>
+                </div>
+            </div>
+
+            <div class="college-box">
+                <div class="college-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Técnico</h4>
+                    <p>Atuo principalmente com backend, utilizando C#, Asp.Net, NodeJS, PHP, Laravel, CakePHP, MySQL, SqlServer e versionamento com Git. Para frontend já atuei utilizando JavaScript, Tailwind, Bootstrap, React e Angular.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="college" id="projects">
+        <h2 class="heading">Formação</h2>
+
+        <div class="college-container">
+            <div class="college-box">
+                <div class="college-info">
+                    <i class="bx bxs-devices"></i>
+                    <h4>Ciencia</h4>
+                    <p>Atuo principalmente com backend, utilizando C#, Asp.Net, NodeJS, PHP, Laravel, CakePHP, MySQL, SqlServer e versionamento com Git. Para frontend já atuei utilizando JavaScript, Tailwind, Bootstrap, React e Angular.</p>
+                </div>
+            </div>
+
+            <div class="college-box">
+                <div class="college-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Técnico</h4>
+                    <p>Atuo principalmente com backend, utilizando C#, Asp.Net, NodeJS, PHP, Laravel, CakePHP, MySQL, SqlServer e versionamento com Git. Para frontend já atuei utilizando JavaScript, Tailwind, Bootstrap, React e Angular.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#college">Formação</a>
+            </li>
+            <li>
+                <a href="#about">Sobre</a>
+            </li>
+            <li>
+                <a href="#contact">Contato</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            © Letícia França | Todos os direitos reservados
+        </p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
